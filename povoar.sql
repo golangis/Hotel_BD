@@ -51,7 +51,7 @@ INSERT INTO Guest (SSN, name, address, birthdate) VALUES(123678900, 'Cristiano R
 INSERT INTO Guest (SSN, name, address, birthdate) VALUES(569477700, 'Inês Rocha', "9876-3567, nº29 Rua das Camélias, Lisboa, Portugal", '1997-05-04' );
 INSERT INTO Guest (SSN, name, address, birthdate) VALUES(567567563, 'Elon Musk', "4356-7564, nº23 Tesla Street, Miami, USA", '1971-06-28');
 INSERT INTO Guest (SSN, name, address, birthdate) VALUES(234232323, 'Jeff Bezos', "0000-1111, nº12 Amazon Rainforest, São Paulo, Brasil", '1971-06-28');
-INSERT INTO Guest (SSN, name, address, birthdate) VALUES(123678900, 'Mariana Rocha', "1234-5678, nº9 Rua do Rato, Porto, Portugal", '2002-08-08' );
+INSERT INTO Guest (SSN, name, address, birthdate) VALUES(123678901, 'Mariana Rocha', "1234-5678, nº9 Rua do Rato, Porto, Portugal", '2002-08-08' );
 INSERT INTO Guest (SSN, name, address, birthdate) VALUES(568887700, 'Miguel Silva', "2456-3567, nº2 Rua do Miguel, Braga, Portugal", '2002-01-01' );
 INSERT INTO Guest (SSN, name, address, birthdate) VALUES(569997563, 'Emanuel Gestosa', "1246-7584, nº3 Travessa do Emanuel, Braga, USA", '2002-01-01');
 INSERT INTO Guest (SSN, name, address, birthdate) VALUES(890900023, 'Marcelo Rebelo', "0870-1325, nº12 Palácio de Belém, Pará, Brasil", '1951-06-28');
@@ -125,6 +125,19 @@ INSERT INTO Renting VALUES (0,567567563, 5);
 INSERT INTO Renting VALUES (1,234232323, 5);
 INSERT INTO Renting VALUES (0,123678900, 5);
 INSERT INTO Renting VALUES (0,569477700, 4);
+INSERT INTO Renting VALUES (1,123678901, 20);
+INSERT INTO Renting VALUES (0,123678901, 18);
+INSERT INTO Renting VALUES (1,890900023, 18);
+INSERT INTO Renting VALUES (1,569997563, 13);
+INSERT INTO Renting VALUES (1,123678900, 11);
+INSERT INTO Renting VALUES (1,234232323, 12);
+INSERT INTO Renting VALUES (1,568887700, 14);
+INSERT INTO Renting VALUES (0,123678901, 11);
+INSERT INTO Renting VALUES (0,234232323, 13);
+INSERT INTO Renting VALUES (1,568887700, 15);
+INSERT INTO Renting VALUES (1,123678901, 10);
+INSERT INTO Renting VALUES (1,234232323, 17);
+INSERT INTO Renting VALUES (0,890900023, 17);
 
 -- HotelZoneBookingType
 INSERT INTO HotelZoneBookingType VALUES("Premium", "Apartamentos");
