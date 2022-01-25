@@ -54,8 +54,9 @@ INSERT INTO Guest (SSN, name, address, birthdate) VALUES(234232323, 'Jeff Bezos'
 INSERT INTO Guest (SSN, name, address, birthdate) VALUES(123678901, 'Mariana Rocha', "1234-5678, nº9 Rua do Rato, Porto, Portugal", '2002-08-08' );
 INSERT INTO Guest (SSN, name, address, birthdate) VALUES(568887700, 'Miguel Silva', "2456-3567, nº2 Rua do Miguel, Braga, Portugal", '2002-01-01' );
 INSERT INTO Guest (SSN, name, address, birthdate) VALUES(569997563, 'Emanuel Gestosa', "1246-7584, nº3 Travessa do Emanuel, Braga, USA", '2002-01-01');
-INSERT INTO Guest (SSN, name, address, birthdate) VALUES(890900023, 'Marcelo Rebelo', "0870-1325, nº12 Palácio de Belém, Pará, Brasil", '1951-06-28');
-
+INSERT INTO Guest (SSN, name, address, birthdate) VALUES(890900023, 'Marcelo Rebelo', "0870-1325, nº12 Palácio de Belém, Pará, Brasil", '1951-06-30');
+INSERT INTO Guest (SSN, name, address, birthdate) VALUES(123498700, 'Zé Povinho', "3461-1455, nº15 Rua do Fado , Madeira, Portugal", '1945-05-27');
+INSERT INTO Guest (SSN, name, address, birthdate) VALUES(123498799, 'Maria Poveira', "3461-1455, nº55 Rua do Marinheiro , Póvoa, Portugal", '1951-02-01');
 
 -- WorkingDay
 INSERT INTO WorkingDay VALUES ("Segunda");
@@ -532,6 +533,10 @@ INSERT INTO Renting VALUES (1,568887700, 15);
 INSERT INTO Renting VALUES (1,123678901, 10);
 INSERT INTO Renting VALUES (1,234232323, 17);
 INSERT INTO Renting VALUES (0,890900023, 17);
+INSERT INTO Renting VALUES (1,123498700, 19);
+INSERT INTO Renting VALUES (0,123498799, 19);
+INSERT INTO Renting VALUES (0,123498700, 16);
+INSERT INTO Renting VALUES (1,123498799, 16);
 
 -- HotelZoneBookingType
 INSERT INTO HotelZoneBookingType VALUES("Premium", "Apartamentos");
