@@ -67,6 +67,21 @@ INSERT INTO Booking VALUES (2, 87, "Come e Cala", "Dinheiro", 917834567, "2021-1
 INSERT INTO Booking VALUES (3, 86, "Premium", "Cartão de Crédito", 919645851, "2022-02-14", "2022-03-02" );
 INSERT INTO Booking VALUES (4, 74, "Come e Cala", "Cartão de Débito", 936642577, "2021-11-04", "2022-01-02" );
 INSERT INTO Booking VALUES (5, 100, "Plano D' Ouro", "Cartão de Débito", 922645868, "2022-02-14", "2022-03-02" );
+INSERT INTO Booking VALUES (6, 86, "Premium", "Cartão de Crédito", 912345672, "2021-01-08", "2022-01-30" );
+INSERT INTO Booking VALUES (7, 86, "Premium", "Cartão de Crédito", 912345562, "2021-03-08", "2022-03-12" );
+INSERT INTO Booking VALUES (8, 87, "Plano D' Ouro", "Cartão de Débito", 912115672, "2021-01-08", "2022-01-30" );
+INSERT INTO Booking VALUES (9, 87, "Come e Cala", "Dinheiro", 912995562, "2021-02-10", "2022-02-24" );
+INSERT INTO Booking VALUES (10, 87, "Come e Cala", "Cartão de Débito", 932995562, "2021-02-26", "2022-03-10" );
+INSERT INTO Booking VALUES (11, 74, "Plano D' Ouro", "Cartão de Débito", 932915562, "2021-02-26", "2022-03-10" );
+INSERT INTO Booking VALUES (12, 74, "Come e Cala", "Cartão de Débito", 932915562, "2021-03-12", "2022-03-14" );
+INSERT INTO Booking VALUES (13, 100, "Come e Cala", "Cartão de Débito", 922575868, "2022-03-07", "2022-03-14" );
+INSERT INTO Booking VALUES (14, 100, "Come e Cala", "Cartão de Débito", 922575978, "2022-03-20", "2022-03-30" );
+INSERT INTO Booking VALUES (15, 86, "Plano D' Ouro", "Cartão de Crédito", 933345672, "2021-03-20", "2022-03-30" );
+INSERT INTO Booking VALUES (16, 86, "Premium", "Cartão de Crédito", 912245562, "2021-04-08", "2022-04-12" );
+INSERT INTO Booking VALUES (17, 74, "Premium", "Cartão de Débito", 932915562, "2021-03-17", "2022-03-20" );
+INSERT INTO Booking VALUES (18, 74, "Come e Cala", "Cartão de Débito", 932915562, "2021-03-20", "2022-03-26" );
+INSERT INTO Booking VALUES (19, 100, "Premium", "Cartão de Débito", 922500868, "2022-04-02", "2022-04-05" );
+INSERT INTO Booking VALUES (20, 100, "Plano D' Ouro", "Cartão de Débito", 922005978, "2022-04-07", "2022-04-18");
 
 -- Employee
 INSERT INTO Employee VALUES (123456700, "Vasco Miranda", "7654-3210, nº14 Rua de Minha Casa, Porto, Portugal", "1999-12-31", "Empregado de Mesa", "Restauração", 912345678);
