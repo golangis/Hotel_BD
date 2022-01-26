@@ -3,7 +3,8 @@
 .nullvalue NULL
 
 PRAGMA FOREIGN_KEYS = ON;
---Número de funcionários com especialidade em Bartender
- select count(*) as [Employees in Specialty]
-     from Employee
-        where (specialty = "Bartender")
+--Número de funcionários por especialidade
+ SELECT specialty, count(*) as [Employees in Specialty]
+     FROM Employee
+            GROUP BY specialty;
+            
