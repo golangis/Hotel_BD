@@ -1,0 +1,1 @@
+DROP Trigger IF EXISTS overlap_date ;
